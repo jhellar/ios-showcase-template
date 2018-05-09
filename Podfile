@@ -6,7 +6,6 @@ target 'AeroGearSdkExample' do
 
   # Pods for AeroGearSdkExample
   # Should contain each individual mobile services
-  pod 'AGSCore', :path => '../'
   if ENV['LOCAL']
     pod 'AGSAuth', :path => '../'
     pod 'AGSPush', :path => '../'
